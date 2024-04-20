@@ -17,11 +17,11 @@ docker ps -a
 ```
 #### 3. Start the Stopped Container
 ```bash
-docker start charming_banzai
+docker start mystic_jaguar
 ```
 #### 4. Remove the Container
 ```bash
-docker rm charming_banzai
+docker rm mystic_jaguar
 ```
 #### 5. Remove the Image
 ```bash
@@ -100,7 +100,7 @@ docker build -t custom-nginx .
 
 ```
 
-#### 4. Test the Container, open your browser and navigate to http://localhost:8080 to check if everything is okay
+#### 4. Test the Container, open your browser and navigate to http://localhost:8000 to check if everything is okay
 ```bash
-docker run -d -p 8080:80 custom-nginx
+docker run -d -p 8000:80 custom-nginx
 ```
